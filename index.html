@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Dosis:300" rel="stylesheet">
+		<link href="css/Genericons/genericons.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<title>shawna jean</title>
+	</head>
+	<body>
+		<div class="content">
+			<div id="popover">
+				<div class="form">
+					<span class="close" onclick ="div_hide()">Close</span>
+					<form action="https://formspree.io/hire@shawnajean.tech" method="POST">
+						<input type="hidden" name="_subject" value="New request from shawnajean.tech" />
+						<input type="text" name="_gotcha" style="display:none" />
+						<input type="hidden" name="_next" value="//site.io/thanks.html" />
+						<ul>
+							<li>
+								<input type="text" name="name" id="name" required />
+								<label for="name">Name</label>
+							</li>
+							<li>
+						    	<input type="email" name="_replyto" id="email" required />
+							    <label for="email">Email</label>
+							</li>
+							<li>
+						    	<input type="text" name="subject" id="subject" required />
+						    	<label for="subject">Subject</label>
+						    </li>
+						    <li>
+							    <textarea name="message" id="message" required ></textarea>
+						    	<label for="message">Text</label>
+						    </li>
+						    <input type="submit" value="Send">
+						</ul>
+					</form>
+				</div>
+			</div>
+			<div class="wrap">
+				<h1>Shawna Jean</h1>
+				<nav>
+					<ul>
+						<li class="button" id="popup" onclick="div_show()">Get in Touch</li>
+						<li><a href="http://me.shawnajean.tech">Me</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<footer>
+			<ul class="social">
+				<li><a href="mailto:hire@shawnajean.tech"><span class="genericon genericon-mail"></span></a></li>
+				<li><a href="http://twitter.com/shawnajeanr"><span class="genericon genericon-twitter"></span></a></li>
+				<li><a href="http://github.com/shawnajean"><span class="genericon genericon-github"></span></a></li>
+				<li><a href="https://www.linkedin.com/in/shawnajean"><span class="genericon genericon-linkedin"></span></a></li>
+			</ul>
+		</footer>
+
+		<script>
+		function div_show() {
+			document.getElementById('popover').style.display = "block";
+		}
+
+		function div_hide(){
+			document.getElementById('popover').style.display = "none";
+		}
+
+		document.onkeydown = function(evt) {
+			evt = evt || window.event;
+
+		    if (evt.keyCode == 27) { // escape key maps to keycode `27`
+		        div_hide();
+		    }
+		};
+		</script>
+	</body>
+</html>
