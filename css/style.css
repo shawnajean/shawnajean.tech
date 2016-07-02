@@ -29,6 +29,21 @@ input, textarea, keygen, select, button {
     color: #fff;
     font-family: 'Dosis', san-serif;
 }
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video,
+input, textarea, keygen, select, button {
+    overflow: hidden;
+}
 
 html, body{
     height: 100%;
@@ -38,6 +53,11 @@ body {
     line-height:1;
     text-align: left;
     color: #fff;
+}
+
+.container {
+    height: 100%;
+    overflow: auto;
 }
 
 article,aside,details,figcaption,figure,
@@ -105,7 +125,6 @@ h1 {
     height: 100vh;
     min-height: 500px;
     margin-bottom: -35px;
-    overflow: auto;
 }
 
 .wrap {
@@ -191,8 +210,7 @@ footer {
     display:none;
     position:fixed;
     background-color:#313131;
-    overflow: scroll;
-    margin: 0 10%;
+    overflow: auto;
 }
 
 .formContainer {
@@ -218,7 +236,6 @@ label, input, textarea {
 }
 
 form ul {
-    background-color: #313131;
     list-style-type: none;
     margin: 3em auto;
     padding: 0;
