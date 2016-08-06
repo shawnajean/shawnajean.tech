@@ -1091,6 +1091,25 @@ th {
     margin-bottom: 1.6em
 }
 
+address,
+blockquote,
+code,
+dd,
+dialog,
+div,
+dl,
+dt,
+li,
+ol,
+p,
+pre,
+table,
+td,
+tspan,
+ul {
+  font-family: Dosis, sans-serif;
+}
+
 p.small,
 small {
     font-size: 80%;
