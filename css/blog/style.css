@@ -1525,14 +1525,6 @@ form fieldset legend {
     width: 100%
 }
 
-.form label,
-form label {
-    display: inline-block;
-    font-weight: 700;
-    margin-bottom: 7px;
-    max-width: 100%
-}
-
 .form label.danger:after,
 .form label.firm:after,
 .form label.info:after,
