@@ -1528,7 +1528,6 @@ form fieldset legend {
 .form label,
 form label {
     display: inline-block;
-    font-family: inherit;
     font-weight: 700;
     margin-bottom: 7px;
     max-width: 100%
@@ -1684,47 +1683,6 @@ form .input {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1
-}
-
-.form button,
-.form input[type=submit],
-.form input[type=reset],
-a.button,
-form button,
-form input[type=submit],
-form input[type=reset],
-html input[type=button] {
-    -webkit-border-radius: 5px;
-    -webkit-background-clip: padding-box;
-    -moz-border-radius: 5px;
-    -moz-background-clip: padding;
-    border-radius: 5px;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -o-transition: all .2s;
-    transition: all .2s;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background: #fff;
-    border: none;
-    color: #666;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 11.2px;
-    font-weight: 400;
-    line-height: 17.6px;
-    letter-spacing: .1px;
-    margin: 0;
-    padding: 7px 16px;
-    position: relative;
-    text-align: center;
-    text-rendering: optimizeLegibility;
-    text-transform: uppercase;
-    vertical-align: middle;
-    white-space: nowrap;
-    -webkit-font-smoothing: antialiased
 }
 
 .form button:hover,
@@ -2081,27 +2039,6 @@ h6 {
     color: #676b99
 }
 
-address,
-blockquote,
-code,
-dd,
-dialog,
-div,
-dl,
-dt,
-form input,
-form label,
-li,
-ol,
-p,
-pre,
-table,
-td,
-tspan,
-ul {
-    font-family: 'Dosis', sans serif;
-}
-
 code,
 pre {
     font-family: Courier, monospace
@@ -2160,23 +2097,6 @@ table.plain tbody tr {
 .form .input-row,
 form .input-row {
     padding: 0
-}
-
-.form input[type=email],
-.form input[type=number],
-.form input[type=password],
-.form input[type=text],
-.form textarea,
-form input[type=email],
-form input[type=number],
-form input[type=password],
-form input[type=text],
-form textarea {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: 1px solid #ddd;
-    padding: 3px 7px
 }
 
 .form input[type=email]:focus,
