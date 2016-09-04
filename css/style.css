@@ -1,8 +1,8 @@
-/* 
+/*
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
+Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
@@ -15,7 +15,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video,
 input, textarea, keygen, select, button {
@@ -38,7 +38,7 @@ b, i,
 dl, dt, dd,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video,
 input, textarea, keygen, select, button {
@@ -61,7 +61,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -83,7 +83,7 @@ a {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -100,10 +100,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Set full width background image **/
 
-html { 
+html {
     background:
     linear-gradient(
-      rgba(135, 135, 135, 0.45), 
+      rgba(135, 135, 135, 0.45),
       rgba(135, 135, 135, 0.45)
     ),
     url('../magazines-desk-work-workspace.jpg') no-repeat center center fixed;
@@ -257,7 +257,7 @@ label {
     top: 10px;
     left: 10px;
     text-transform: uppercase;
-    
+
 }
 
 .active label, input:focus+label, textarea:focus+label {
@@ -305,7 +305,7 @@ input[type=submit] {
 .form .close {
     font-size: 16px;
     cursor: pointer;
-    position: relative;
+    //*position: relative;*//
     color: #aaa;
     margin: 5px;
 }
@@ -378,5 +378,5 @@ input[type=submit] {
     .social {
         border-bottom: 4px solid #0bcdd9;
     }
-    
+
 }
