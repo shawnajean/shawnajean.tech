@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/shawnajean
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://shawnajean.tech
+  * I am shawnajean (https://keybase.io/shawnajean) on keybase.
+  * I have a public key with fingerprint B370 29AD 63D3 47E2 E0D8  12B3 9ECF 0B26 4E1B 5A49
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010132ca5638361b74f999afd269225504f680309176bb5157e4fd8f1ca5e93f1b500a",
+            "fingerprint": "b37029ad63d347e2e0d812b39ecf0b264e1b5a49",
+            "host": "keybase.io",
+            "key_id": "9ecf0b264e1b5a49",
+            "kid": "010132ca5638361b74f999afd269225504f680309176bb5157e4fd8f1ca5e93f1b500a",
+            "uid": "e235aed9bdc5c0edf9daa154ddbc4219",
+            "username": "shawnajean"
+        },
+        "service": {
+            "hostname": "shawnajean.tech",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1478034077,
+    "expire_in": 157680000,
+    "prev": "a8ab6ed27f136865b0b7c2279345bc8d2214fd80cd38485ee10953d5c0acdfa9",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSFRBGF43V2kz7WJtUlGdlx5SmTPnvhvVQ2V0JamIELaZM3Pc4+Wc
+dfesZiUsZFd6iG6yWlCYlA8VhSGEhV3A8BIhZVpJPRiEldZLhUQ1R+qpHpuXYf75
+vu//vp//4fQpHn/awYybB4oaRri0nntNCc/OPO/5fRy2SS0X3MeV08mLVhAad8Ll
+JuGCHOABL0AdSbKgCjKPFdHQNA0ZBMoahJIERENWgQA0XpExlnhJoaJBVINnFKoJ
+Bo8lABCXzxmmVUpj0ZhpOUwWCwqAGiKyQARRoZACovIQCxrVDYChLFJGRKLGiBE7
+7jKYOYzitNC0WY09wpP2/oH/z74Tk3IUChKiRMNEl3RAiaERhHhJJATrIuTdvok4
+jVmokjJ0PIJqLFRGkcXV5XOsXm3q1B2tm+UvTKFD9QgTiMZsx9btCvYZcZxo0OU6
+tVEXXENx+LdMGJsWYbNkhGoai5u2xQV5htQd09XlRYXFEoGi5HN0T9SM0bDpIiSF
+xWXHbUOrmSRSEZYpgYrBC7IqSxhgRYdQ0QRRwrpKIOTdgQCdCKqoSpTyQJMEwtIj
+nRjITRynVZbNBQVmE5W6kcxSCzmJGOXq7neWpHvS/J4Mn9fdMY9/6ow/m5f1NfOn
+5X9zsX/Fg6e7N+zY0J9clX19bGZxlvde95bNmX2XDq1XsifyiiKV71LPC2rmcbDv
+TIs+WDK++866hZ/9aTkgpMwPHc9JNd/aaqd6y+qTh/s7Fs9NtnVsWjq4Nuvi5q4p
+2+Y8S/EjzfnihXPG6KIlJweij9+3v91xJnmibVcuIlfK0qcPBELBgxs7zzbmqNLl
+l7kVoT0l15qcvNHcrqcLziYKTt4ODK0pWLZd2p99NfAiePPjjaGWJbO+4DuNDb3A
+5/v+bWL/wOPh088yPhQVd/t6mkrH9bt93k/TGrcNPeo+1lff+qoj58lIQ8vy1qOv
+29pfzV4p2IFrh6t+HNk7dmp4tfYLpxI+FQ==
+=P3tX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shawnajean
+
+==================================================================
