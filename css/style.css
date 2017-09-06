@@ -257,7 +257,18 @@ label {
     top: 10px;
     left: 10px;
     text-transform: uppercase;
+}
 
+label.wp-notice {
+  top: -45px;
+}
+
+.wp-contact-link {
+  border-bottom: 1px dashed;
+}
+
+.wp-contact-link:hover {
+  border-bottom: none;
 }
 
 .active label, input:focus+label, textarea:focus+label {
